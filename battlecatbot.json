@@ -5,5 +5,12 @@
             "basic_atk": 3,
             "basic_hp": 10
         }
+    },
+    "enemy": {
+        "1": {
+            "name": "狗仔",
+            "basic_atk": 2,
+            "basic_hp": 20
+        }
     }
 }
