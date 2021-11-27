@@ -4,7 +4,16 @@
             "name": "貓咪",
             "basic_atk": 3,
             "basic_hp": 10,
-            "xp": 100
+            "xp": 100,
+            "skill": {
+                "1": {
+                    "name": "咬",
+                    "type": 1,
+                    "num": [
+                        "o"
+                    ]
+                }
+            }
         }
     },
     "enemy": {
@@ -14,7 +23,16 @@
                 "white"
             ],
             "basic_atk": 2,
-            "basic_hp": 6
+            "basic_hp": 6,
+            "skill": {
+                "1": {
+                    "name": "咬",
+                    "type": 1,
+                    "num": [
+                        "o"
+                    ]
+                }
+            }
         }
     },
     "stage": {
