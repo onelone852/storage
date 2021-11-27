@@ -42,7 +42,49 @@
                     ]
                 }
             }
-        }
+        },
+        "3": {
+            "name": "炸彈貓",
+            "basic_atk": 15,
+            "basic_hp": 15,
+            "xp": 300,
+            "skill": {
+                "1": {
+                    "name": "轟烈",
+                    "type": 1,
+                    "object": "enemy",
+                    "num": [
+                        "o"
+                    ]
+                },
+                "2": {
+                    "name": "轟烈",
+                    "type": 1,
+                    "object": "enemy",
+                    "num": [
+                        "o"
+                    ]
+                },
+                "3": {
+                    "name": "轟烈",
+                    "type": 1,
+                    "object": "enemy",
+                    "num": [
+                        "o"
+                    ]
+                },
+                "4": {
+                    "name": "炸彈盛宴",
+                    "type": 1,
+                    "object": "enemy",
+                    "num": [
+                        "o",
+                        "o",
+                        "o"
+                    ]
+                }
+            }
+        },
     },
     "enemy": {
         "1": {
