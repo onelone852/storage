@@ -15,6 +15,33 @@
                     ]
                 }
             }
+        },
+        "2": {
+            "name": "坦克貓",
+            "basic_atk": 1,
+            "basic_hp": 15,
+            "xp": 110,
+            "skill": {
+                "1": {
+                    "name": "衝擊",
+                    "type": 1,
+                    "object": "enemy",
+                    "num": [
+                        "o",
+                        "o"
+                    ]
+                },
+                "2": {
+                    "name": "超衝擊",
+                    "type": 1,
+                    "object": "enemy",
+                    "num": [
+                        "o",
+                        "o",
+                        "o"
+                    ]
+                }
+            }
         }
     },
     "enemy": {
