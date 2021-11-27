@@ -35,6 +35,34 @@
                     ]
                 }
             }
+        },
+        "10": {
+            "name": "異星爆走姆特貓",
+            "trait": [
+                "alien",
+                "floating"
+            ],
+            "basic_atk": 50000,
+            "basic_hp": 500000,
+            "skill": {
+                "1": {
+                    "name": "紫火三連擊",
+                    "type": 1,
+                    "object": "enemy",
+                    "num": [
+                        "o",
+                        15000
+                    ]
+                },
+                "2": {
+                    "name": "紫火拳",
+                    "type": 1,
+                    "object": "enemy",
+                    "num": [
+                        "o"
+                    ]
+                }
+            }
         }
     },
     "stage": {
