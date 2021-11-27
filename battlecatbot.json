@@ -12,8 +12,8 @@
             "trait": [
                 "white"
             ],
-            "basic_atk": 2,
-            "basic_hp": 10
+            "basic_atk": 1,
+            "basic_hp": 5
         }
     },
     "stage": {
