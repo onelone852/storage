@@ -3,7 +3,8 @@
         "1": {
             "name": "貓咪",
             "basic_atk": 3,
-            "basic_hp": 10
+            "basic_hp": 10,
+            "xp": 100
         }
     },
     "enemy": {
@@ -12,8 +13,8 @@
             "trait": [
                 "white"
             ],
-            "basic_atk": 1,
-            "basic_hp": 5
+            "basic_atk": 2,
+            "basic_hp": 6
         }
     },
     "stage": {
