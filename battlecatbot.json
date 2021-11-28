@@ -10,9 +10,7 @@
                   "name": "咬",
                   "type": 1,
                   "object": "enemy",
-                  "num": [
-                      "o"
-                  ]
+                  "num": ["o"]
               }
           }
       },
@@ -26,20 +24,13 @@
                   "name": "衝擊",
                   "type": 1,
                   "object": "enemy",
-                  "num": [
-                      "o",
-                      "o"
-                  ]
+                  "num": ["o","o"]
               },
               "2": {
                   "name": "超衝擊",
                   "type": 1,
                   "object": "enemy",
-                  "num": [
-                      "o",
-                      "o",
-                      "o"
-                  ]
+                  "num": ["o","o","o"]
               }
           }
       },
@@ -53,34 +44,25 @@
                   "name": "轟烈",
                   "type": 1,
                   "object": "enemy",
-                  "num": [
-                      "o"
-                  ]
+                  "num": ["o"]
               },
               "2": {
                   "name": "轟烈",
                   "type": 1,
                   "object": "enemy",
-                  "num": [
-                      "o"
-                  ]
+                  "num": ["o"]
               },
               "3": {
                   "name": "轟烈",
                   "type": 1,
                   "object": "enemy",
-                  "num": [
-                      "o"
-                  ]
+                  "num": ["o"]
               },
               "4": {
                   "name": "炸彈盛宴",
                   "type": 1,
                   "object": "enemy",
-                  "num": [
-                      "o",
-                      "o"
-                  ]
+                  "num": ["o","o"]
               }
           }
       }
@@ -98,9 +80,7 @@
                   "name": "咬",
                   "type": 1,
                   "object": "enemy",
-                  "num": [
-                      "o"
-                  ]
+                  "num": ["o"]
               }
           }
       },
@@ -116,10 +96,7 @@
                   "name": "咬",
                   "type": 1,
                   "object": "enemy",
-                  "num": [
-                      "o",
-                      5
-                  ]
+                  "num": ["o",5]
               }
           }
       },
