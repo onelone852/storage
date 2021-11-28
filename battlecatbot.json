@@ -4,7 +4,7 @@
           "name": "貓咪",
           "basic_atk": 3,
           "basic_hp": 10,
-          "xp": 100,
+          "xp": 75,
           "skill": {
               "1": {
                   "name": "咬",
@@ -18,7 +18,7 @@
           "name": "坦克貓",
           "basic_atk": 1,
           "basic_hp": 15,
-          "xp": 110,
+          "xp": 100,
           "skill": {
               "1": {
                   "name": "衝擊",
@@ -38,7 +38,7 @@
           "name": "炸彈貓",
           "basic_atk": 5,
           "basic_hp": 12,
-          "xp": 300,
+          "xp": 250,
           "skill": {
               "1": {
                   "name": "轟烈",
