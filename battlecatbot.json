@@ -66,6 +66,20 @@
               }
           }
       }
+      "11": {
+          "name": "Q周年貓貓",
+          "basic_atk": 1,
+          "basic_hp": 1,
+          "xp": 75,
+          "skill": {
+              "1": {
+                  "name": "祝Q周年！",
+                  "type": 1,
+                  "object": "enemy",
+                  "num": ["o"]
+              }
+          }
+      }
   },
   "enemy": {
       "1": {
