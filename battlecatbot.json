@@ -2,6 +2,7 @@
   "cat": {
       "1": {
           "name": "貓咪",
+          "description": "可以以低成本升級的基本角色",
           "basic_atk": 3,
           "basic_hp": 10,
           "xp": 75,
@@ -16,6 +17,7 @@
       },
       "2": {
           "name": "坦克貓",
+          "description": "體力很強的肉盾角色\n攻擊力跟弱雞差不多",
           "basic_atk": 1,
           "basic_hp": 15,
           "xp": 100,
@@ -24,18 +26,19 @@
                   "name": "衝擊",
                   "type": 1,
                   "object": "enemy",
-                  "num": ["o","o"]
+                  "num": ["o"]
               },
               "2": {
                   "name": "超衝擊",
                   "type": 1,
                   "object": "enemy",
-                  "num": ["o","o","o"]
+                  "num": ["o",20]
               }
           }
       },
     "3": {
           "name": "戰鬥貓",
+          "description": "戰鬥型的角色\n善於攻擊「紅色敵人」",
           "basic_atk": 5,
           "basic_hp": 8,
           "xp": 110,
@@ -56,6 +59,7 @@
       },
     "4": {
           "name": "噁心貓",
+          "description": "可以攻擊敵人的攻擊型角色\n只是單發的話攻擊力很高",
           "basic_atk": 7,
           "basic_hp": 6,
           "xp": 125,
@@ -76,6 +80,7 @@
       },
       "10": {
           "name": "花盆貓",
+          "description": "是隻很喜歡花的貓咪\n給花澆水是每天必做之事\n偶爾會讓黑色敵人瞬間動作停止",
           "basic_atk": 5,
           "basic_hp": 10,
           "xp": 250,
@@ -108,6 +113,7 @@
       },
       "11": {
           "name": "Q周年貓貓",
+          "description": "慶祝Q周年所生的貓咪！",
           "basic_atk": 1,
           "basic_hp": 1,
           "xp": 75,
