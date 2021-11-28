@@ -81,7 +81,7 @@
     "5": {
           "name": "牛貓",
           "description": "動作敏捷移動能力優越的角色\n攻擊次數也沒話說",
-          "basic_atk": 2,
+          "basic_atk": 3,
           "basic_hp": 11,
           "xp": 150,
           "skill": {
