@@ -75,31 +75,31 @@
           }
       },
       "10": {
-          "name": "炸彈貓",
+          "name": "花盆貓",
           "basic_atk": 5,
           "basic_hp": 10,
           "xp": 250,
           "skill": {
               "1": {
-                  "name": "轟烈",
+                  "name": "花開",
                   "type": 1,
                   "object": "enemy",
                   "num": ["o"]
               },
               "2": {
-                  "name": "轟烈",
+                  "name": "花開",
                   "type": 1,
                   "object": "enemy",
                   "num": ["o"]
               },
               "3": {
-                  "name": "轟烈",
+                  "name": "花開",
                   "type": 1,
                   "object": "enemy",
                   "num": ["o"]
               },
               "4": {
-                  "name": "炸彈盛宴",
+                  "name": "盛花開",
                   "type": 1,
                   "object": "enemy",
                   "num": ["o",20]
