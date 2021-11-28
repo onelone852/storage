@@ -37,7 +37,7 @@
       "10": {
           "name": "炸彈貓",
           "basic_atk": 5,
-          "basic_hp": 12,
+          "basic_hp": 10,
           "xp": 250,
           "skill": {
               "1": {
