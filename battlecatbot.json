@@ -163,7 +163,7 @@
                 "2": {
                     "name": "火球雨",
                     "type": 1,
-                    "object": "self",
+                    "object": "enemy",
                     "num": ["o",15]
                 },
                 "3": {
