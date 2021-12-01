@@ -177,7 +177,7 @@
      "9": {
             "name": "巨神貓",
             "description": "具有超強破壞力和強韌體力\n最頂級角色",
-            "basic_atk": 10,
+            "basic_atk": 8,
             "basic_hp": 20,
             "xp": 350,
             "skill": {
