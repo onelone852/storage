@@ -151,7 +151,7 @@
             "name": "蜥蜴貓",
             "description": "可以攻擊遠處敵人的攻擊型角色\n只是單發的話攻擊力超凡",
             "basic_atk": 15,
-            "basic_hp": 10,
+            "basic_hp": 9,
             "xp": 275,
             "skill": {
                 "1": {
@@ -177,8 +177,8 @@
      "9": {
             "name": "巨神貓",
             "description": "具有超強破壞力和強韌體力\n最頂級角色",
-            "basic_atk": 8,
-            "basic_hp": 20,
+            "basic_atk": 6,
+            "basic_hp": 16,
             "xp": 350,
             "skill": {
                 "1": {
