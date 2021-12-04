@@ -6,6 +6,7 @@
             "description": "可以以低成本升級的基本角色",
             "basic_atk": 3,
             "basic_hp": 10,
+            "basic_def": 0,
             "xp": 75,
             "skill": {
                 "1": {
@@ -21,6 +22,7 @@
             "description": "體力很強的肉盾角色\n攻擊力跟弱雞差不多",
             "basic_atk": 1,
             "basic_hp": 15,
+            "basic_def": 5,
             "xp": 100,
             "skill": {
                 "1": {
@@ -42,6 +44,7 @@
             "description": "戰鬥型的角色\n善於攻擊紅色敵人",
             "basic_atk": 5,
             "basic_hp": 8,
+            "basic_def": 2,
             "xp": 110,
             "skill": {
                 "1": {
@@ -63,6 +66,7 @@
             "description": "可以攻擊敵人的攻擊型角色\n只是單發的話攻擊力很高",
             "basic_atk": 3,
             "basic_hp": 6,
+            "basic_def": -1,
             "xp": 125,
             "skill": {
                 "1": {
@@ -84,6 +88,7 @@
             "description": "動作敏捷移動能力優越的角色\n攻擊次數也沒話說",
             "basic_atk": 3,
             "basic_hp": 11,
+            "basic_def": 1,
             "xp": 150,
             "skill": {
                 "1": {
@@ -111,6 +116,7 @@
             "description": "體力雖然低但可以一次攻擊所有敵人\n具有超級破壞力的角色",
             "basic_atk": 10,
             "basic_hp": 4,
+            "basic_def": -2,
             "xp": 175,
             "skill": {
                 "1": {
@@ -132,6 +138,7 @@
             "description": "戰鬥型的高級角色\n善於攻擊紅色敵人",
             "basic_atk": 8,
             "basic_hp": 12,
+            "basic_def": 3,
             "xp": 200,
             "skill": {
                 "1": {
@@ -153,6 +160,7 @@
             "description": "可以攻擊遠處敵人的攻擊型角色\n只是單發的話攻擊力超凡",
             "basic_atk": 15,
             "basic_hp": 9,
+            "basic_def": 1,
             "xp": 275,
             "skill": {
                 "1": {
@@ -179,7 +187,8 @@
             "name": "巨神貓",
             "description": "具有超強破壞力和強韌體力\n最頂級角色",
             "basic_atk": 6,
-            "basic_hp": 16,
+            "basic_hp": 14,
+            "basic_def": 3,
             "xp": 350,
             "skill": {
                 "1": {
@@ -207,6 +216,7 @@
             "description": "是隻很喜歡花的貓咪\n給花澆水是每天必做之事\n偶爾會讓黑色敵人瞬間動作停止",
             "basic_atk": 5,
             "basic_hp": 10,
+            "basic_def": 0,
             "xp": 250,
             "skill": {
                 "1": {
@@ -240,6 +250,7 @@
             "description": "慶祝Q周年所生的貓咪！",
             "basic_atk": 1,
             "basic_hp": 1,
+            "basic_def": 0,
             "xp": 75,
             "skill": {
                 "1": {
@@ -255,6 +266,7 @@
             "description": "兩隻是一起玩樂在豆豆裡的貓咪\n感情很好\n偶爾會打飛紅色敵人",
             "basic_atk": 5,
             "basic_hp": 15,
+            "basic_def": 2,
             "xp": 175,
             "skill": {
                 "1": {
@@ -280,6 +292,7 @@
             ],
             "basic_atk": 2,
             "basic_hp": 6,
+            "basic_def": 0,
             "skill": {
                 "1": {
                     "name": "咬",
@@ -296,6 +309,7 @@
             ],
             "basic_atk": 3,
             "basic_hp": 14,
+            "basic_def": 1,
             "skill": {
                 "1": {
                     "name": "咬",
@@ -312,6 +326,7 @@
             ],
             "basic_atk": 10,
             "basic_hp": 25,
+            "basic_def": 1,
             "skill": {
                 "1": {
                     "name": "三人攻",
@@ -334,6 +349,7 @@
             ],
             "basic_atk": 10,
             "basic_hp": 45,
+            "basic_def": 2,
             "skill": {
                 "1": {
                     "name": "咬",
@@ -350,6 +366,7 @@
             ],
             "basic_atk": 15,
             "basic_hp": 35,
+            "basic_def": 1,
             "skill": {
                 "1": {
                     "name": "撼地",
@@ -366,6 +383,7 @@
             ],
             "basic_atk": 15,
             "basic_hp": 40,
+            "basic_def": 3,
             "skill": {
                 "1": {
                     "name": "旋轉攻擊",
@@ -388,6 +406,7 @@
             ],
             "basic_atk": 20,
             "basic_hp": 45,
+            "basic_def": 0,
             "skill": {
                 "1": {
                     "name": "震撼",
@@ -410,6 +429,7 @@
             ],
             "basic_atk": 5,
             "basic_hp": 10,
+            "basic_def": 4,
             "skill": {
                 "1": {
                     "name": "撞",
@@ -426,6 +446,7 @@
             ],
             "basic_atk": 30,
             "basic_hp": 50,
+            "basic_def": 3,
             "skill": {
                 "1": {
                     "name": "咬",
@@ -448,6 +469,7 @@
             ],
             "basic_atk": 2,
             "basic_hp": 10,
+            "basic_def": 1,
             "skill": {
                 "1": {
                     "name": "咬",
@@ -464,6 +486,7 @@
             ],
             "basic_atk": 50,
             "basic_hp": 30,
+            "basic_def": 5,
             "skill": {
                 "1": {
                     "name": "象鼻",
@@ -480,6 +503,7 @@
             ],
             "basic_atk": 20,
             "basic_hp": 60,
+            "basic_def": 3,
             "skill": {
                 "1": {
                     "name": "打拳",
@@ -502,6 +526,7 @@
             ],
             "basic_atk": 60,
             "basic_hp": 110,
+            "basic_def": -1,
             "skill": {
                 "1": {
                     "name": "巴掌",
@@ -518,6 +543,7 @@
             ],
             "basic_atk": 2500,
             "basic_hp": 30000,
+            "basic_def": 800,
             "skill": {
                 "1": {
                     "name": "咬",
@@ -541,6 +567,7 @@
             ],
             "basic_atk": 50000,
             "basic_hp": 500000,
+            "basic_def": 4000,
             "skill": {
                 "1": {
                     "name": "紫火三連擊",
