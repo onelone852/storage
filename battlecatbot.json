@@ -288,7 +288,7 @@
             "description": "可以攻擊遠處敵人的遠距離攻擊型角色\n因為狂亂化而精通發射波動\n但升級力也因此下降",
             "basic_atk": 25,
             "basic_hp": 70,
-            "basic_def": 15,
+            "basic_def": 5,
             "xp": 3000,
             "skill": {
                 "1": {
