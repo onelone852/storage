@@ -604,8 +604,8 @@
             "trait": [
                 1
             ],
-            "basic_atk": 999,
-            "basic_hp": 9999,
+            "basic_atk": 99,
+            "basic_hp": 999,
             "basic_def": 99,
             "skill": {
                 "1": {
