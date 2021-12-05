@@ -2,288 +2,302 @@
     "version": "0.1.3",
     "cat": {
         "1": {
-            "name": "貓咪",
-            "description": "可以以低成本升級的基本角色",
-            "basic_atk": 3,
-            "basic_hp": 10,
-            "basic_def": 0,
-            "xp": 75,
-            "skill": {
-                "1": {
-                    "name": "咬",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o"]
+            "1": {
+                "name": "貓咪",
+                "description": "可以以低成本升級的基本角色",
+                "basic_atk": 3,
+                "basic_hp": 10,
+                "basic_def": 0,
+                "xp": 75,
+                "skill": {
+                    "1": {
+                        "name": "咬",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o"]
+                    }
                 }
             }
         },
         "2": {
-            "name": "坦克貓",
-            "description": "體力很強的肉盾角色\n攻擊力跟弱雞差不多",
-            "basic_atk": 1,
-            "basic_hp": 15,
-            "basic_def": 5,
-            "xp": 100,
-            "skill": {
-                "1": {
-                    "name": "衝擊",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o"]
-                },
-                "2": {
-                    "name": "超衝擊",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o",20]
+            "1": {
+                "name": "坦克貓",
+                "description": "體力很強的肉盾角色\n攻擊力跟弱雞差不多",
+                "basic_atk": 1,
+                "basic_hp": 15,
+                "basic_def": 5,
+                "xp": 100,
+                "skill": {
+                    "1": {
+                        "name": "衝擊",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o"]
+                    },
+                    "2": {
+                        "name": "超衝擊",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",20]
+                    }
                 }
             }
         },
       "3": {
-            "name": "戰鬥貓",
-            "description": "戰鬥型的角色\n善於攻擊紅色敵人",
-            "basic_atk": 5,
-            "basic_hp": 8,
-            "basic_def": 2,
-            "xp": 110,
-            "skill": {
-                "1": {
-                    "name": "揮砍",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o"]
-                },
-                "2": {
-                    "name": "劍氣攻擊",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o",10]
+            "1": {
+                "name": "戰鬥貓",
+                "description": "戰鬥型的角色\n善於攻擊紅色敵人",
+                "basic_atk": 5,
+                "basic_hp": 8,
+                "basic_def": 2,
+                "xp": 110,
+                "skill": {
+                    "1": {
+                        "name": "揮砍",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o"]
+                    },
+                    "2": {
+                        "name": "劍氣攻擊",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",10]
+                    }
                 }
             }
         },
       "4": {
-            "name": "噁心貓",
-            "description": "可以攻擊敵人的攻擊型角色\n只是單發的話攻擊力很高",
-            "basic_atk": 3,
-            "basic_hp": 6,
-            "basic_def": -1,
-            "xp": 125,
-            "skill": {
-                "1": {
-                    "name": "揮",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o","o"]
-                },
-                "2": {
-                    "name": "噁心",
-                    "type": 2,
-                    "object": "self",
-                    "num": ["o"]
+            "1": {
+                "name": "噁心貓",
+                "description": "可以攻擊敵人的攻擊型角色\n只是單發的話攻擊力很高",
+                "basic_atk": 3,
+                "basic_hp": 6,
+                "basic_def": -1,
+                "xp": 125,
+                "skill": {
+                    "1": {
+                        "name": "揮",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o","o"]
+                    },
+                    "2": {
+                        "name": "噁心",
+                        "type": 2,
+                        "object": "self",
+                        "num": ["o"]
+                    }
                 }
             }
         },
       "5": {
-            "name": "牛貓",
-            "description": "動作敏捷移動能力優越的角色\n攻擊次數也沒話說",
-            "basic_atk": 3,
-            "basic_hp": 11,
-            "basic_def": 1,
-            "xp": 150,
-            "skill": {
-                "1": {
-                    "name": "頂撞",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o","o"]
-                },
-                "2": {
-                    "name": "二次頂撞",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o","o","o"]
-                },
-                "3": {
-                    "name": "三次頂撞",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o","o","o","o"]
+            "1": {
+                "name": "牛貓",
+                "description": "動作敏捷移動能力優越的角色\n攻擊次數也沒話說",
+                "basic_atk": 3,
+                "basic_hp": 11,
+                "basic_def": 1,
+                "xp": 150,
+                "skill": {
+                    "1": {
+                        "name": "頂撞",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o","o"]
+                    },
+                    "2": {
+                        "name": "二次頂撞",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o","o","o"]
+                    },
+                    "3": {
+                        "name": "三次頂撞",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o","o","o","o"]
+                    }
                 }
             }
         },
       "6": {
-            "name": "鳥貓",
-            "description": "體力雖然低但可以一次攻擊所有敵人\n具有超級破壞力的角色",
-            "basic_atk": 10,
-            "basic_hp": 4,
-            "basic_def": -2,
-            "xp": 175,
-            "skill": {
-                "1": {
-                    "name": "俯衝",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o",10]
-                },
-                "2": {
-                    "name": "自由之翼",
-                    "type": 2,
-                    "object": "self",
-                    "num": ["o"]
+            "1": {
+                "name": "鳥貓",
+                "description": "體力雖然低但可以一次攻擊所有敵人\n具有超級破壞力的角色",
+                "basic_atk": 10,
+                "basic_hp": 4,
+                "basic_def": -2,
+                "xp": 175,
+                "skill": {
+                    "1": {
+                        "name": "俯衝",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",10]
+                    },
+                    "2": {
+                        "name": "自由之翼",
+                        "type": 2,
+                        "object": "self",
+                        "num": ["o"]
+                    }
                 }
             }
         },
       "7": {
-            "name": "魚貓",
-            "description": "戰鬥型的高級角色\n善於攻擊紅色敵人",
-            "basic_atk": 8,
-            "basic_hp": 12,
-            "basic_def": 3,
-            "xp": 200,
-            "skill": {
-                "1": {
-                    "name": "咬",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o",8]
-                },
-                "2": {
-                    "name": "翔游",
-                    "type": 2,
-                    "object": "self",
-                    "num": [0]
+            "1": {
+                "name": "魚貓",
+                "description": "戰鬥型的高級角色\n善於攻擊紅色敵人",
+                "basic_atk": 8,
+                "basic_hp": 12,
+                "basic_def": 3,
+                "xp": 200,
+                "skill": {
+                    "1": {
+                        "name": "咬",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",8]
+                    },
+                    "2": {
+                        "name": "翔游",
+                        "type": 2,
+                        "object": "self",
+                        "num": [0]
+                    }
                 }
             }
         },
       "8": {
-            "name": "蜥蜴貓",
-            "description": "可以攻擊遠處敵人的攻擊型角色\n只是單發的話攻擊力超凡",
-            "basic_atk": 15,
-            "basic_hp": 9,
-            "basic_def": 1,
-            "xp": 275,
-            "skill": {
-                "1": {
-                    "name": "火球",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o"]
-                },
-                "2": {
-                    "name": "火球雨",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o",15]
-                },
-                "3": {
-                    "name": "龍影",
-                    "type": 1,
-                    "object": "self",
-                    "num": [15]
+            "1": {
+                "name": "蜥蜴貓",
+                "description": "可以攻擊遠處敵人的攻擊型角色\n只是單發的話攻擊力超凡",
+                "basic_atk": 14,
+                "basic_hp": 9,
+                "basic_def": 1.5,
+                "xp": 275,
+                "skill": {
+                    "1": {
+                        "name": "火球",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o"]
+                    },
+                    "2": {
+                        "name": "火球雨",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",15]
+                    },
+                    "3": {
+                        "name": "龍影",
+                        "type": 1,
+                        "object": "self",
+                        "num": [15]
+                    }
                 }
             }
         },
      "9": {
-            "name": "巨神貓",
-            "description": "具有超強破壞力和強韌體力\n最頂級角色",
-            "basic_atk": 6,
-            "basic_hp": 14,
-            "basic_def": 3,
-            "xp": 350,
-            "skill": {
-                "1": {
-                    "name": "一拳",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o"]
-                },
-                "2": {
-                    "name": "兩拳",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o","o"]
-                },
-                "3": {
-                    "name": "強身健體",
-                    "type": 2,
-                    "object": "self",
-                    "num": ["o"]
+            "1": {
+                "name": "巨神貓",
+                "description": "具有超強破壞力和強韌體力\n最頂級角色",
+                "basic_atk": 6,
+                "basic_hp": 14,
+                "basic_def": 3,
+                "xp": 350,
+                "skill": {
+                    "1": {
+                        "name": "一拳",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o"]
+                    },
+                    "2": {
+                        "name": "兩拳",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o","o"]
+                    },
+                    "3": {
+                        "name": "強身健體",
+                        "type": 2,
+                        "object": "self",
+                        "num": ["o"]
+                    }
                 }
             }
         },
         "10": {
-            "name": "花盆貓",
-            "description": "是隻很喜歡花的貓咪\n給花澆水是每天必做之事\n偶爾會讓黑色敵人瞬間動作停止",
-            "basic_atk": 5,
-            "basic_hp": 10,
-            "basic_def": 0,
-            "xp": 250,
-            "skill": {
-                "1": {
-                    "name": "花開",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o"]
-                },
-                "2": {
-                    "name": "花開",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o"]
-                },
-                "3": {
-                    "name": "花開",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o"]
-                },
-                "4": {
-                    "name": "盛花開",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o",20]
+            "1": {
+                "name": "花盆貓",
+                "description": "是隻很喜歡花的貓咪\n給花澆水是每天必做之事\n偶爾會讓黑色敵人瞬間動作停止",
+                "basic_atk": 5,
+                "basic_hp": 10,
+                "basic_def": 0,
+                "xp": 250,
+                "skill": {
+                    "1": {
+                        "name": "花開",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o"]
+                    },
+                    "2": {
+                        "name": "盛花開",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",20]
+                    }
                 }
             }
         },
         "11": {
-            "name": "Q周年貓貓",
-            "description": "慶祝Q周年所生的貓咪！",
-            "basic_atk": 1,
-            "basic_hp": 1,
-            "basic_def": 0,
-            "xp": 75,
-            "skill": {
-                "1": {
-                    "name": "祝Q周年！",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o"]
+            "1": {
+                "name": "Q周年貓貓",
+                "description": "慶祝Q周年所生的貓咪！",
+                "basic_atk": 1,
+                "basic_hp": 1,
+                "basic_def": 0,
+                "xp": 75,
+                "skill": {
+                    "1": {
+                        "name": "祝Q周年！",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o"]
+                    }
                 }
             }
         },
         "12": {
-            "name": "豌豆貓",
-            "description": "兩隻是一起玩樂在豆豆裡的貓咪\n感情很好\n偶爾會打飛紅色敵人",
-            "basic_atk": 5,
-            "basic_hp": 15,
-            "basic_def": 2,
-            "xp": 175,
-            "skill": {
-                "1": {
-                    "name": "壓",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o",5]
-                },
-                "2": {
-                    "name": "壓扁",
-                    "type": 1,
-                    "object": "enemy",
-                    "num": ["o","o"]
+            "1": {
+                "name": "豌豆貓",
+                "description": "兩隻是一起玩樂在豆豆裡的貓咪\n感情很好\n偶爾會打飛紅色敵人",
+                "basic_atk": 5,
+                "basic_hp": 15,
+                "basic_def": 2,
+                "xp": 175,
+                "skill": {
+                    "1": {
+                        "name": "壓",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",5]
+                    },
+                    "2": {
+                        "name": "壓扁",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o","o"]
+                    }
                 }
             }
+
         },
         "19": {
+            "1": {
             "name": "狂亂噁心貓",
             "description": "可以攻擊遠處敵人的遠距離攻擊型角色\n因為狂亂化而精通發射波動\n但升級力也因此下降",
             "basic_atk": 25,
@@ -299,7 +313,8 @@
                 }
             }
         }
-    },
+    }
+},
     "enemy": {
         "1": {
             "name": "狗仔",
