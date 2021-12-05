@@ -17,6 +17,21 @@
                         "num": ["o"]
                     }
                 }
+            },
+            "2": {
+                "name": "健美貓",
+                "description": "飽經鍛鍊的肌肉是魅力\n基本角色",
+                "basic_atk": 5,
+                "basic_hp": 12,
+                "basic_def": 3,
+                "skill": {
+                    "1": {
+                        "name": "咬",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o"]
+                    }
+                }
             }
         },
         "2": {
