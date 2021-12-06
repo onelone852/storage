@@ -29,7 +29,7 @@
                         "name": "咬",
                         "type": 1,
                         "object": "enemy",
-                        "num": ["o"]
+                        "num": ["o",5]
                     }
                 }
             }
