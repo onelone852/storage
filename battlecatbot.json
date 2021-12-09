@@ -39,7 +39,7 @@
         "2": {
             "1": {
                 "name": "坦克貓",
-                "description": "體力很強的肉盾角色\n攻擊力跟弱雞差不多",
+                "description": "體力很強的肉盾角色\n攻擊力跟弱雞差不多(範圍攻擊)",
                 "basic_atk": 1,
                 "basic_hp": 15,
                 "basic_def": 5,
@@ -57,6 +57,22 @@
                         "type": 1,
                         "object": "enemy",
                         "num": ["o",20]
+                    }
+                }
+            },
+            "2": {
+                "name": "牆貓",
+                "description": "用來當人牆最適合不過的肉盾角色\n攻擊力還是老樣子(範圍攻擊)",
+                "basic_atk": 3,
+                "basic_hp": 20,
+                "basic_def": 6,
+                "basic_range": 1,
+                "skill": {
+                    "1": {
+                        "name": "塌",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",10]
                     }
                 }
             }
@@ -145,7 +161,7 @@
       "6": {
             "1": {
                 "name": "鳥貓",
-                "description": "體力雖然低但可以一次攻擊所有敵人\n具有超級破壞力的角色",
+                "description": "體力雖然低但可以一次攻擊所有敵人\n具有超級破壞力的角色(範圍攻擊)",
                 "basic_atk": 10,
                 "basic_hp": 4,
                 "basic_def": -2,
@@ -226,7 +242,7 @@
      "9": {
             "1": {
                 "name": "巨神貓",
-                "description": "具有超強破壞力和強韌體力\n最頂級角色",
+                "description": "具有超強破壞力和強韌體力\n最頂級角色(範圍攻擊)",
                 "basic_atk": 6,
                 "basic_hp": 14,
                 "basic_def": 3,
@@ -301,7 +317,7 @@
         "12": {
             "1": {
                 "name": "豌豆貓",
-                "description": "兩隻是一起玩樂在豆豆裡的貓咪\n感情很好\n偶爾會打飛紅色敵人",
+                "description": "兩隻是一起玩樂在豆豆裡的貓咪\n感情很好\n偶爾會打飛紅色敵人(範圍攻擊)",
                 "basic_atk": 5,
                 "basic_hp": 15,
                 "basic_def": 2,
