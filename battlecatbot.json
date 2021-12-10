@@ -22,9 +22,9 @@
             "2": {
                 "name": "健美貓",
                 "description": "飽經鍛鍊的肌肉是魅力\n基本角色",
-                "basic_atk": 5,
+                "basic_atk": 4,
                 "basic_hp": 12,
-                "basic_def": 3,
+                "basic_def": 1,
                 "basic_range": 2,
                 "skill": {
                     "1": {
@@ -63,7 +63,7 @@
             "2": {
                 "name": "牆貓",
                 "description": "用來當人牆最適合不過的肉盾角色\n攻擊力還是老樣子(範圍攻擊)",
-                "basic_atk": 3,
+                "basic_atk": 2,
                 "basic_hp": 20,
                 "basic_def": 6,
                 "basic_range": 1,
@@ -274,7 +274,7 @@
             "1": {
                 "name": "花盆貓",
                 "description": "是隻很喜歡花的貓咪\n給花澆水是每天必做之事\n偶爾會讓黑色敵人瞬間動作停止",
-                "basic_atk": 5,
+                "basic_atk": 3,
                 "basic_hp": 10,
                 "basic_def": 0,
                 "basic_range": 1,
@@ -344,8 +344,8 @@
             "1": {
             "name": "狂亂噁心貓",
             "description": "可以攻擊遠處敵人的遠距離攻擊型角色\n因為狂亂化而精通發射波動\n但升級力也因此下降",
-            "basic_atk": 25,
-            "basic_hp": 70,
+            "basic_atk": 15,
+            "basic_hp": 65,
             "basic_def": 5,
             "basic_range": 10,
             "xp": 3000,
