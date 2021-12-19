@@ -141,6 +141,22 @@
                         "num": ["o"]
                     }
                 }
+            },
+            "2": {
+                "name": "美腿貓",
+                "description": "對自己超美的腿感到驕傲的遠距離攻擊型角色\n只是單發的話攻擊力很高",
+                "basic_atk": 5,
+                "basic_hp": 14,
+                "basic_def": 1.5,
+                "basic_range": 3,
+                "skill": {
+                    "1": {
+                        "name": "揮",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o","o",5]
+                    }
+                }
             }
         },
       "5": {
@@ -172,6 +188,34 @@
                         "num": ["o","o","o","o"]
                     }
                 }
+            },
+            "2": {
+                "name": "長頸鹿貓",
+                "description": "動作敏捷移動能力優越的角色\n把長長的脖子當頭錘很搞笑",
+                "basic_atk": 3,
+                "basic_hp": 15,
+                "basic_def": 1.5,
+                "basic_range": 1,
+                "skill": {
+                    "1": {
+                        "name": "頂撞",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o","o",1]
+                    },
+                    "2": {
+                        "name": "二次頂撞",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o","o","o",3]
+                    },
+                    "3": {
+                        "name": "三次頂撞",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o","o","o","o",5]
+                    }
+                }
             }
         },
       "6": {
@@ -197,6 +241,28 @@
                         "num": ["o"]
                     }
                 }
+            },
+            "2": {
+                "name": "UFO貓",
+                "description": "超越重力的改造貓咪\n可以將敵人一網打盡(範圍攻擊)",
+                "basic_atk": 12.5,
+                "basic_hp": 6,
+                "basic_def": -1,
+                "basic_range": 4.5,
+                "skill": {
+                    "1": {
+                        "name": "俯衝",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",10]
+                    },
+                    "2": {
+                        "name": "自由之翼",
+                        "type": 2,
+                        "object": "self",
+                        "num": ["o",5]
+                    }
+                }
             }
         },
       "7": {
@@ -220,6 +286,28 @@
                         "type": 2,
                         "object": "self",
                         "num": [0]
+                    }
+                }
+            },
+            "2": {
+                "name": "鯨貓",
+                "description": "進化成肉食鯨魚的高級戰鬥角色\n善於攻擊紅色敵人",
+                "basic_atk": 9.5,
+                "basic_hp": 14,
+                "basic_def": 3.5,
+                "basic_range": 1.5,
+                "skill": {
+                    "1": {
+                        "name": "咬",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",10]
+                    },
+                    "2": {
+                        "name": "翔游",
+                        "type": 2,
+                        "object": "self",
+                        "num": [5]
                     }
                 }
             }
@@ -253,6 +341,34 @@
                         "num": [15]
                     }
                 }
+            },
+            "2": {
+                "name": "龍貓",
+                "description": "從幻想世界降臨的遠距離攻擊型角色\n只是單發的話攻擊力超凡",
+                "basic_atk": 15.5,
+                "basic_hp": 11.5,
+                "basic_def": 2,
+                "basic_range": 5.5,
+                "skill": {
+                    "1": {
+                        "name": "火球",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o"]
+                    },
+                    "2": {
+                        "name": "火球雨",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",25]
+                    },
+                    "3": {
+                        "name": "龍影",
+                        "type": 1,
+                        "object": "self",
+                        "num": [7.5]
+                    }
+                }
             }
         },
      "9": {
@@ -275,13 +391,41 @@
                         "name": "兩拳",
                         "type": 1,
                         "object": "enemy",
-                        "num": ["o","o"]
+                        "num": ["o",15]
                     },
                     "3": {
                         "name": "強身健體",
                         "type": 2,
                         "object": "self",
+                        "num": ["o","/",2]
+                    }
+                }
+            },
+            "2": {
+                "name": "巨人貓",
+                "description": "具有超強破壞力和強韌體力\n掌控破壞的貓神(範圍攻擊)",
+                "basic_atk": 8,
+                "basic_hp": 16,
+                "basic_def": 4,
+                "basic_range": 3,
+                "skill": {
+    `               "1": {
+                        "name": "一拳",
+                        "type": 1,
+                        "object": "enemy",
                         "num": ["o"]
+                    },
+                    "2": {
+                        "name": "兩拳",
+                        "type": 1,
+                        "object": "enemy",
+                        "num": ["o",25]
+                    },
+                    "3": {
+                        "name": "強身健體",
+                        "type": 2,
+                        "object": "self",
+                        "num": ["o","/",2]
                     }
                 }
             }
