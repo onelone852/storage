@@ -409,7 +409,7 @@
                 "basic_def": 4,
                 "basic_range": 3,
                 "skill": {
-    `               "1": {
+                    "1": {
                         "name": "一拳",
                         "type": 1,
                         "object": "enemy",
