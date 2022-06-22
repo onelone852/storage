@@ -810,7 +810,7 @@
             "basic_hp": 110,
             "basic_def": -1,
             "basic_range": 15,
-            "basic_speed": 12
+            "basic_speed": 12,
             "skill": {
                 "1": {
                     "name": "巴掌",
