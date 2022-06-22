@@ -829,7 +829,7 @@
             "basic_hp": 30000,
             "basic_def": 800,
             "basic_range": 150,
-            "basic_speed": 14
+            "basic_speed": 14,
             "skill": {
                 "1": {
                     "name": "咬",
