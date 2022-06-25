@@ -95,12 +95,25 @@
                     "1": {
                         "name": "揮砍",
                         "type": 1,
+                        "trait": [2],
+                        "power"： [
+                            {
+                                "type": 1,
+                                "trait": [2]
+                            }         
+                        ],
                         "object": "enemy",
                         "num": ["o"]
                     },
                     "2": {
                         "name": "劍氣攻擊",
                         "type": 1,
+                        "power"： [
+                            {
+                                "type": 1
+                                "trait": [2]
+                            }         
+                        ],
                         "object": "enemy",
                         "num": ["o",10]
                     }
@@ -118,6 +131,12 @@
                     "1": {
                         "name": "劍氣攻擊",
                         "type": 1,
+                        "power"：[
+                            {
+                                "type": 1,
+                                "trait": [2]
+                            }         
+                        ],
                         "object": "enemy",
                         "num": ["o",12.5]
                     }
@@ -291,6 +310,12 @@
                     "1": {
                         "name": "咬",
                         "type": 1,
+                        "power": [
+                            {
+                                "type": 1,
+                                "trait": [2]
+                            }         
+                        ],
                         "object": "enemy",
                         "num": ["o",8]
                     },
@@ -314,6 +339,12 @@
                     "1": {
                         "name": "咬",
                         "type": 1,
+                        "power"：[
+                            {
+                                "type": 1,
+                                "trait": [2]
+                            }         
+                        ],
                         "object": "enemy",
                         "num": ["o",10]
                     },
@@ -462,12 +493,29 @@
                     "1": {
                         "name": "花開",
                         "type": 1,
+                        "power"： [
+                            {
+                                "type": 2,
+                                "trait": [4],
+                                "probability": 20,
+                                "time": 1
+                            }         
+                        ],
                         "object": "enemy",
                         "num": ["o"]
                     },
                     "2": {
                         "name": "盛花開",
                         "type": 1,
+                        "trait": [4],
+                        "power": [
+                            {
+                                "type": 2,
+                                "trait": [4],
+                                "probability": 40,
+                                "time": 1
+                            }         
+                        ],
                         "object": "enemy",
                         "num": ["o",20]
                     }
@@ -545,9 +593,6 @@
     "enemy": {
         "1": {
             "name": "狗仔",
-            "trait": [
-                1
-            ],
             "basic_atk": 2,
             "basic_hp": 6,
             "basic_def": 0,
@@ -564,9 +609,6 @@
         },
         "2": {
             "name": "扭扭蛇",
-            "trait": [
-                1
-            ],
             "basic_atk": 3,
             "basic_hp": 14,
             "basic_def": 1,
@@ -583,9 +625,6 @@
         },
         "3": {
             "name": "團結筷子幫",
-            "trait": [
-                1
-            ],
             "basic_atk": 10,
             "basic_hp": 25,
             "basic_def": 1,
@@ -608,9 +647,6 @@
         },
         "4": {
             "name": "河馬將",
-            "trait": [
-                1
-            ],
             "basic_atk": 10,
             "basic_hp": 45,
             "basic_def": 2,
@@ -627,9 +663,7 @@
         },
         "5": {
             "name": "豬野郎",
-            "trait": [
-                2
-            ],
+            "trait": [2],
             "basic_atk": 15,
             "basic_hp": 35,
             "basic_def": 1,
@@ -646,9 +680,6 @@
         },
         "6": {
             "name": "企鵝大哥",
-            "trait": [
-                1
-            ],
             "basic_atk": 15,
             "basic_hp": 40,
             "basic_def": 3,
@@ -671,9 +702,6 @@
         },
         "7": {
             "name": "大猩猩",
-            "trait": [
-                1
-            ],
             "basic_atk": 20,
             "basic_hp": 45,
             "basic_def": 0,
@@ -696,9 +724,6 @@
         },
         "8": {
             "name": "咩咩",
-            "trait": [
-                1
-            ],
             "basic_atk": 5,
             "basic_hp": 10,
             "basic_def": 4,
@@ -715,9 +740,7 @@
         },
         "9": {
             "name": "斑海豹桑",
-            "trait": [
-                2
-            ],
+            "trait": [2],
             "basic_atk": 30,
             "basic_hp": 50,
             "basic_def": 3,
@@ -740,9 +763,6 @@
         },
         "10": {
             "name": "鱷魚宅宅",
-            "trait": [
-                1
-            ],
             "basic_atk": 2,
             "basic_hp": 10,
             "basic_def": 1,
@@ -759,9 +779,6 @@
         },
         "11": {
             "name": "澎湃",
-            "trait": [
-                1
-            ],
             "basic_atk": 50,
             "basic_hp": 30,
             "basic_def": 5,
@@ -778,9 +795,6 @@
         },
         "13": {
             "name": "袋拳",
-            "trait": [
-                1
-            ],
             "basic_atk": 20,
             "basic_hp": 60,
             "basic_def": 3,
@@ -803,9 +817,6 @@
         },
         "14": {
             "name": "熊熊老師",
-            "trait": [
-                1
-            ],
             "basic_atk": 60,
             "basic_hp": 110,
             "basic_def": -1,
@@ -822,9 +833,7 @@
         },
         "34": {
             "name": "鱷星宅宅",
-            "trait": [
-                4
-            ],
+            "trait": [4],
             "basic_atk": 2500,
             "basic_hp": 30000,
             "basic_def": 800,
@@ -847,10 +856,7 @@
         },
         "35": {
             "name": "異星爆走姆特貓",
-            "trait": [
-                4,
-                3
-            ],
+            "trait": [4,3],
             "basic_atk": 50000,
             "basic_hp": 500000,
             "basic_def": 4000,
@@ -873,9 +879,6 @@
         },
         "39": {
             "name": "狂亂噁心貓",
-            "trait": [
-                1
-            ],
             "basic_atk": 199,
             "basic_hp": 999,
             "basic_def": 99,
