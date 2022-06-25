@@ -96,7 +96,7 @@
                         "name": "揮砍",
                         "type": 1,
                         "trait": [2],
-                        "power"： [
+                        "power": [
                             {
                                 "type": 1,
                                 "trait": [2]
@@ -108,9 +108,9 @@
                     "2": {
                         "name": "劍氣攻擊",
                         "type": 1,
-                        "power"： [
+                        "power": [
                             {
-                                "type": 1
+                                "type": 1,
                                 "trait": [2]
                             }         
                         ],
@@ -131,7 +131,7 @@
                     "1": {
                         "name": "劍氣攻擊",
                         "type": 1,
-                        "power"：[
+                        "power":[
                             {
                                 "type": 1,
                                 "trait": [2]
@@ -339,7 +339,7 @@
                     "1": {
                         "name": "咬",
                         "type": 1,
-                        "power"：[
+                        "power":[
                             {
                                 "type": 1,
                                 "trait": [2]
@@ -493,7 +493,7 @@
                     "1": {
                         "name": "花開",
                         "type": 1,
-                        "power"： [
+                        "power": [
                             {
                                 "type": 2,
                                 "trait": [4],
